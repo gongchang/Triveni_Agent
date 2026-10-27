@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "node dev.cjs",
+    "agent": "node pi-chat-server.cjs",
+    "slides": "node dev.cjs",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "node-pty": "^1.1.0",
+    "vue": "latest",
+    "ws": "^8.22.0"
+  }
+}
